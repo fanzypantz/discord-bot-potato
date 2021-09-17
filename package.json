@@ -4,12 +4,18 @@
   "description": "Discord bot for SitePoint",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Michiel Mulders",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.5.1",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "firebase-admin": "^9.11.1",
+    "prettier": "^2.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
